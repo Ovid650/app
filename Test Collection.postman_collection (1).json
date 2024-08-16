@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "661011db-a55f-43d0-9b00-962eb66d8b5f",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37662348"
+	},
+	"item": [
+		{
+			"name": "Put",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7097/WeatherForecast/Hot",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7097",
+					"path": [
+						"WeatherForecast",
+						"Hot"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
